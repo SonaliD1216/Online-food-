@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Online Food Order-Yummy Tummy</title>
+    <a href="../home.html">WELCOME TO OUR PAGE-YUMMY TUMMY</a>
+</head>
+<body>
+    <div class="container">
+        <h1>Online Food Order-YUMMY TUMMY </h1>
+        <div class="menu-container">
+            <h2>Menu</h2>
+            <ul id="menuList">
+                <li data-name="Pizza" data-price="599"><img src="pizza.jpg" alt=""></img> <br>Pizza - $599 <button onclick="addToOrder('Pizza', 599)">Add to Order</button></li>
+                <li data-name="Burger" data-price="250"><img src="burger.jpg"></img><br>Burger - $250 <button onclick="addToOrder('Burger', 250)">Add to Order</button></li>
+                <li data-name="Pasta" data-price="150"> <img src="pasta.jpg"></img><br>Pasta - $150 <button onclick="addToOrder('Pasta', 150)">Add to Order</button></li>
+                <li data-name="Salad" data-price="100"> <img src="salad.jpg"></img><br>Salad - $100 <button onclick="addToOrder('Salad', 100)">Add to Order</button></li>
+                <li data-namae="Momo" data-price="200"><img src="MOMO.jpg"></img><br>Momo - $200 <button onclick="addToOrder('Momo', 200)">Add to Order</button></li>
+               <br><br><br>
+              
+            </ul>
+        </div>
+        <div class="order-container">
+            <h2>Your Order</h2>
+            <div id="orderList"></div>
+            <img src="Order.jpg"></img>
+            <p id="totalPrice">Total Price: $0.00</p>
+            <button onclick="placeOrder()">Place Order</button>
+        </div>
+    </div>
+    <script src="java/script.js"></script>
+    <a href="../account.html"></a>
+    <a href="../confirmation.html"></a>
+    <a href="../feedback.html"></a>
+     <a href="../feedback.html">Provide Feedback</a>
+    <br><br>
+    <a href="../Thankyou.html">CHOOSE US AGAIN</a>
+   
+</body>
+</li>
+    
+</body>
+</html>
